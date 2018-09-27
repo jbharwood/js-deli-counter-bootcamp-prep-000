@@ -6,7 +6,8 @@
 function takeANumber(line) {
   var number = 0
   number++
-  return number
+  line.push(number)
+  return `You are ${number}.`
 }
 
 
