@@ -6,6 +6,7 @@
 function takeANumber(line) {
   var number = 0
   number++
+  return number
 }
 
 
