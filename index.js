@@ -7,7 +7,7 @@ function takeANumber(line) {
   var number = 0
   for (var i = 0; i <= line.length; i++) {
     number++
-    return `Now Serving: ${number}`
+    return `Now Serving: ${number} + ${line.length} in line.`
   }
 }
 
