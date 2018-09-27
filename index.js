@@ -3,6 +3,7 @@
   return "Welcome, " + name + ". You are number " + line.length + " in line."
 }*/
 let number = 0
+
 function takeANumber(line) {
   number++
   line.push(number)
