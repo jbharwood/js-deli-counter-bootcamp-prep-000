@@ -2,9 +2,8 @@
   line.push(name)
   return "Welcome, " + name + ". You are number " + line.length + " in line."
 }*/
-
+let number = 0
 function takeANumber(line) {
-  var number = 0
   number++
   line.push(number)
   return `You are ${number}.`
